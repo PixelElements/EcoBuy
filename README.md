@@ -11,3 +11,8 @@
 
 ## Dlaczego tak, a nie inaczej?
 Konto deweloperskie Apple jest zbyt drogie, żebyśmy byli w stanie umieścić nasz projekt w AppStore.
+
+## W naszej aplikacji nie działa jeszcze...
+- tip of the day
+- dodawanie produktów
+- obsługa alternatywnych produktów
