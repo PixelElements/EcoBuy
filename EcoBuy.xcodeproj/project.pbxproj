@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7174A115235348C600FCBE85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7174A114235348C600FCBE85 /* AppDelegate.swift */; };
 		7174A117235348C600FCBE85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7174A116235348C600FCBE85 /* SceneDelegate.swift */; };
-		7174A119235348C600FCBE85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7174A118235348C600FCBE85 /* ViewController.swift */; };
-		7174A11C235348C600FCBE85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7174A11A235348C600FCBE85 /* Main.storyboard */; };
+		7174A119235348C600FCBE85 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7174A118235348C600FCBE85 /* HomeViewController.swift */; };
 		7174A11E235348CA00FCBE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7174A11D235348CA00FCBE85 /* Assets.xcassets */; };
 		7174A121235348CA00FCBE85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7174A11F235348CA00FCBE85 /* LaunchScreen.storyboard */; };
+		7174A1492356F7B800FCBE85 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7174A1482356F7B800FCBE85 /* ScannerViewController.swift */; };
+		7174A14B2357201D00FCBE85 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7174A14A2357201D00FCBE85 /* ProductViewController.swift */; };
+		7174A14F2359B3C000FCBE85 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7174A14E2359B3C000FCBE85 /* Product.swift */; };
+		7174A151235A44F300FCBE85 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7174A150235A44F300FCBE85 /* ProductView.swift */; };
+		7191665F235F9DC80099F0DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7191665E235F9DC80099F0DB /* GoogleService-Info.plist */; };
+		F804882023638D19000FF260 /* Pods_EcoBuy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2DB98D9934046B74C2EEC0 /* Pods_EcoBuy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7174A111235348C600FCBE85 /* EcoBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7174A114235348C600FCBE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7174A116235348C600FCBE85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7174A118235348C600FCBE85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7174A11B235348C600FCBE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7174A118235348C600FCBE85 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7174A11D235348CA00FCBE85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7174A120235348CA00FCBE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7174A122235348CA00FCBE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7174A1482356F7B800FCBE85 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		7174A14A2357201D00FCBE85 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		7174A14E2359B3C000FCBE85 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		7174A150235A44F300FCBE85 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		7191665E235F9DC80099F0DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B2DB98D9934046B74C2EEC0 /* Pods_EcoBuy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoBuy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A851695C0869147FAAAFEE93 /* Pods-EcoBuy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoBuy.debug.xcconfig"; path = "Target Support Files/Pods-EcoBuy/Pods-EcoBuy.debug.xcconfig"; sourceTree = "<group>"; };
+		B6E9B56FF0C6CAB5E486FC2F /* Pods-EcoBuy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoBuy.release.xcconfig"; path = "Target Support Files/Pods-EcoBuy/Pods-EcoBuy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F804882023638D19000FF260 /* Pods_EcoBuy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28D99E27138072B4F027B64C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A851695C0869147FAAAFEE93 /* Pods-EcoBuy.debug.xcconfig */,
+				B6E9B56FF0C6CAB5E486FC2F /* Pods-EcoBuy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7174A108235348C600FCBE85 = {
 			isa = PBXGroup;
 			children = (
 				7174A113235348C600FCBE85 /* EcoBuy */,
 				7174A112235348C600FCBE85 /* Products */,
+				28D99E27138072B4F027B64C /* Pods */,
+				A60E9A0E20FF5E6A10857686 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,25 @@
 			children = (
 				7174A114235348C600FCBE85 /* AppDelegate.swift */,
 				7174A116235348C600FCBE85 /* SceneDelegate.swift */,
-				7174A118235348C600FCBE85 /* ViewController.swift */,
-				7174A11A235348C600FCBE85 /* Main.storyboard */,
+				7174A14A2357201D00FCBE85 /* ProductViewController.swift */,
+				7174A118235348C600FCBE85 /* HomeViewController.swift */,
+				7174A1482356F7B800FCBE85 /* ScannerViewController.swift */,
 				7174A11D235348CA00FCBE85 /* Assets.xcassets */,
 				7174A11F235348CA00FCBE85 /* LaunchScreen.storyboard */,
 				7174A122235348CA00FCBE85 /* Info.plist */,
+				7174A14E2359B3C000FCBE85 /* Product.swift */,
+				7174A150235A44F300FCBE85 /* ProductView.swift */,
+				7191665E235F9DC80099F0DB /* GoogleService-Info.plist */,
 			);
 			path = EcoBuy;
+			sourceTree = "<group>";
+		};
+		A60E9A0E20FF5E6A10857686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B2DB98D9934046B74C2EEC0 /* Pods_EcoBuy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7174A125235348CA00FCBE85 /* Build configuration list for PBXNativeTarget "EcoBuy" */;
 			buildPhases = (
+				4D3BAF6E29F8C14F7DF7E188 /* [CP] Check Pods Manifest.lock */,
 				7174A10D235348C600FCBE85 /* Sources */,
 				7174A10E235348C600FCBE85 /* Frameworks */,
 				7174A10F235348C600FCBE85 /* Resources */,
+				E03D7CE0E4448B4E3305F87E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +165,72 @@
 			files = (
 				7174A121235348CA00FCBE85 /* LaunchScreen.storyboard in Resources */,
 				7174A11E235348CA00FCBE85 /* Assets.xcassets in Resources */,
-				7174A11C235348C600FCBE85 /* Main.storyboard in Resources */,
+				7191665F235F9DC80099F0DB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D3BAF6E29F8C14F7DF7E188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoBuy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03D7CE0E4448B4E3305F87E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoBuy/Pods-EcoBuy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoBuy/Pods-EcoBuy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcoBuy/Pods-EcoBuy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7174A10D235348C600FCBE85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7174A119235348C600FCBE85 /* ViewController.swift in Sources */,
+				7174A119235348C600FCBE85 /* HomeViewController.swift in Sources */,
+				7174A14F2359B3C000FCBE85 /* Product.swift in Sources */,
+				7174A151235A44F300FCBE85 /* ProductView.swift in Sources */,
 				7174A115235348C600FCBE85 /* AppDelegate.swift in Sources */,
 				7174A117235348C600FCBE85 /* SceneDelegate.swift in Sources */,
+				7174A14B2357201D00FCBE85 /* ProductViewController.swift in Sources */,
+				7174A1492356F7B800FCBE85 /* ScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7174A11A235348C600FCBE85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7174A11B235348C600FCBE85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7174A11F235348CA00FCBE85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,37 +358,41 @@
 		};
 		7174A126235348CA00FCBE85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A851695C0869147FAAAFEE93 /* Pods-EcoBuy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G323CMNMM3;
+				DEVELOPMENT_TEAM = V78LK54YHS;
 				INFOPLIST_FILE = EcoBuy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = PixelElements.EcoBuy;
+				PRODUCT_BUNDLE_IDENTIFIER = space.PixelElements.EcoBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7174A127235348CA00FCBE85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E9B56FF0C6CAB5E486FC2F /* Pods-EcoBuy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G323CMNMM3;
+				DEVELOPMENT_TEAM = V78LK54YHS;
 				INFOPLIST_FILE = EcoBuy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = PixelElements.EcoBuy;
+				PRODUCT_BUNDLE_IDENTIFIER = space.PixelElements.EcoBuy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
